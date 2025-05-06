@@ -1,8 +1,8 @@
-**📸 Face Recognition & Attendance System**
+<h1>📸 Face Recognition & Attendance System</h1>
 
-A real-time face recognition-based attendance system built using Python, OpenCV, and the face_recognition library. This project captures faces through a webcam and automatically marks attendance in a CSV file.
+<p>A real-time face recognition-based attendance system built using Python, OpenCV, and the face_recognition library. This project captures faces through a webcam and automatically marks attendance in a CSV file.</p>
 
-**💻 Tech Stack**
+<h3>💻 Tech Stack</h3>
 
 Python, 
 OpenCV, 
@@ -10,7 +10,7 @@ face_recognition,
 CSV (for attendance logging), 
 Visual Studio Code (IDE)
 
-**⚙️ How It Works**
+<h3>⚙️ How It Works</h3>
 
 - Capture images inside dataset/person_name/ folders.
 
@@ -23,13 +23,13 @@ Visual Studio Code (IDE)
 📅 Date, 
 ⏰ Time
 
-**🚀 Get Started**
+<h3>🚀 Get Started</h3>
 
-**📥 Step 1: Install Dependencies:** 
+- **📥Install Dependencies:** 
 pip install opencv-python face_recognition
 
-**🧠 Step 2: Train the Model:**
+- **🧠Train the Model:**
 python train_model.py
 
-**📷 Step 3: Run Real-Time Recognition:**
+- **📷Run Real-Time Recognition:**
 python recognize_faces.py
